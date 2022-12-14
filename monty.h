@@ -68,6 +68,16 @@ typedef struct globals
 /* bytecode instructions */
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
+void _pint(stack_t **doubly, unsigned int cline);
+void _pop(stack_t **doubly, unsigned int cline);
+void _swap(stack_t **doubly, unsigned int cline);
+
+/* get_bycodes function */
 void (*get_opcodes(char *opc))(stack_t **stack, unsigned int line_number);
+
+/* doubly linked list functions */
+stack_t *add_dnodeint_end(stack_t **head, const int n);
+stack_t *add_dnodeint(stack_t **head, const int n);
+void free_dlistint(stack_t *head);
 
 #endif
