@@ -1,4 +1,6 @@
+#define _GNU_SOURCE
 #include "monty.h"
+#include <stdio.h>
 
 /**
  * _queue - sets the format of the data to a queue (FIFO)

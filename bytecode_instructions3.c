@@ -1,4 +1,6 @@
+#define _GNU_SOURCE
 #include "monty.h"
+#include <stdio.h>
 
 /**
  * _rotl - rotates first element to the bottom and

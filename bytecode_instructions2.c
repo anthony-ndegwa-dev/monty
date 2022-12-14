@@ -1,4 +1,6 @@
+#define _GNU_SOURCE
 #include "monty.h"
+#include <stdio.h>
 
 /**
  * _div - divides the second element by the top element of the stack
