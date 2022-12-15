@@ -59,7 +59,6 @@ void _rotr(stack_t **doubly, unsigned int cline)
 
 	for (; aux->next != NULL; aux = aux->next)
 		;
-
 	aux->prev->next = NULL;
 	aux->next = *doubly;
 	aux->prev = NULL;

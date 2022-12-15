@@ -51,7 +51,6 @@ void _add(stack_t **doubly, unsigned int cline)
 
 	for (; aux != NULL; aux = aux->next, m++)
 		;
-
 	if (m < 2)
 	{
 		dprintf(2, "L%u: can't add, stack too short\n", cline);

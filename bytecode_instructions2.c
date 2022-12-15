@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * _div - divides the second element by the top element of the stack
+ * _div - divides the second elment by the top element of the stack
  * @doubly: head of the linked list
  * @cline: line number
  *
@@ -44,7 +44,7 @@ void _div(stack_t **doubly, unsigned int cline)
  * element of the stack
  * @doubly: head of the linked list
  * @cline: line number
-
+ *
  * Return: no return
  */
 
@@ -88,7 +88,6 @@ void _mod(stack_t **doubly, unsigned int cline)
 
 	for (; aux != NULL; aux = aux->next, m++)
 		;
-
 	if (m < 2)
 	{
 		dprintf(2, "L%u: can't mod, stack too short\n", cline);
