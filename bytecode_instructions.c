@@ -51,6 +51,7 @@ void _push(stack_t **doubly, unsigned int cline)
 void _pall(stack_t **doubly, unsigned int cline)
 {
 	stack_t *aux;
+
 	(void)cline;
 
 	aux = *doubly;
