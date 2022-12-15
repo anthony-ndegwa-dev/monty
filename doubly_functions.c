@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 #define _GNU_SOURCE
+=======
+>>>>>>> parent of 04da903... Add define guard
 #include "monty.h"
 
 /**
