@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 #define _GNU_SOURCE
-=======
->>>>>>> parent of 04da903... Add define guard
 #include "monty.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * add_dnodeint_end - add node at the end of the doubly link list
